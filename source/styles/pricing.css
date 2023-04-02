@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: linear-gradient(90deg, #f5b9ff 0%, #2b2b2b 100%);
+}
+
+.nav-link {
+	color: rgb(143, 143, 143);
+}
+
+.navbar-nav .nav-link.active {
+	color: aquamarine;
+}
+
+.navbar-brand img {
+	width: 40px;
+}
+
+.sidebar {
+	color: aquamarine;
+	background: linear-gradient(270deg, #f5b9ff 0%, #2b2b2b 100%);
+}
+
+.card {
+	/* Цвет описания карточки ( без ссылки ) */
+	/* background: linear-gradient(270deg, #f5b9ff 0%, #2b2b2b 100%); */
+	color: #fff;
+}
+
+.card a {
+	/* Цвет описания карточки ( ссылка ) */
+	text-decoration: none;
+	color: #fff;
+}
+
+.card .btn-primary {
+	/* Цвет текста синей кнопки */
+	color: #fff;
+}
+
+/* 
+Тёмный шрифт - #212529
+Белый шрифт - #fff
+Серый шрифт - #adb5bd
+*/
+
+/* Footer */
+.footer-text {
+	color: #212529;
+	margin: auto auto;
+}
+
+footer {
+	background-color: #f5b9ff;
+}
+
+.media-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

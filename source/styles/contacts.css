@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #2b3035;
+}
+
+/* Header */
+
+.nav-link {
+	color: rgb(143, 143, 143);
+}
+
+.navbar-nav .nav-link.active {
+	color: #cd5888;
+}
+
+.navbar-brand img {
+	width: 40px;
+}
+
+/* Section */
+
+.sidebar {
+	color: #cd5888;
+	background-color: #151616;
+}
+
+/* 
+Светлая тема - шрифт #212529
+Белый шрифт - #fff
+*/
+
+.slide-text {
+	color: #e9e8e8;
+	margin: auto auto;
+}
+
+@media (max-width: 755px) {
+	.carousel-indicators {
+		display: none;
+	}
+}
+
+/* html,
+body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+section {
+	flex: 1 0 auto;
+}
+
+footer {
+	flex-shrink: 0;
+} */
+/* .shel {
+	max-width: 1060px;
+} */
+
+/* section {
+	border: 5px dotted red;
+} */
+
+.call-anim {
+	width: 160px;
+}
+
+.call-anim {
+	animation: call 2s ease 0s infinite normal forwards;
+}
+
+@keyframes call {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+
+	30% {
+		transform: scale3d(1.25, 0.75, 1);
+	}
+
+	40% {
+		transform: scale3d(0.75, 1.25, 1);
+	}
+
+	50% {
+		transform: scale3d(1.15, 0.85, 1);
+	}
+
+	65% {
+		transform: scale3d(0.95, 1.05, 1);
+	}
+
+	75% {
+		transform: scale3d(1.05, 0.95, 1);
+	}
+
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+/* Footer */
+.footer-text {
+	color: #e9e8e8;
+	margin: auto auto;
+}
+
+footer {
+	background-color: #913175;
+	/* position: absolute;
+	bottom: 0;
+	width: 100%; */
+}
+
+.media-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
