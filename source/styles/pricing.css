@@ -2,15 +2,19 @@
 
 body {
 	font-family: 'Montserrat', sans-serif;
-	background: linear-gradient(90deg, #f5b9ff 0%, #2b2b2b 100%);
+	background-color: #2b3035;
+}
+
+.navbar-color {
+	background-color: #212529 !important;
 }
 
 .nav-link {
-	color: rgb(143, 143, 143);
+	color: #8f8f8f;
 }
 
 .navbar-nav .nav-link.active {
-	color: aquamarine;
+	color: #cd5888;
 }
 
 .navbar-brand img {
@@ -18,8 +22,8 @@ body {
 }
 
 .sidebar {
-	color: aquamarine;
-	background: linear-gradient(270deg, #f5b9ff 0%, #2b2b2b 100%);
+	color: #cd5888;
+	background-color: #212529;
 }
 
 .card {
@@ -31,12 +35,12 @@ body {
 .card a {
 	/* Цвет описания карточки ( ссылка ) */
 	text-decoration: none;
-	color: #fff;
+	color: #e9e8e8;
 }
 
 .card .btn-primary {
 	/* Цвет текста синей кнопки */
-	color: #fff;
+	color: #e9e8e8;
 }
 
 /* 
@@ -45,14 +49,52 @@ body {
 Серый шрифт - #adb5bd
 */
 
+.call-anim {
+	width: 160px;
+}
+
+.call-anim {
+	animation: call 2s ease 0s infinite normal forwards;
+}
+
+@keyframes call {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+
+	30% {
+		transform: scale3d(1.25, 0.75, 1);
+	}
+
+	40% {
+		transform: scale3d(0.75, 1.25, 1);
+	}
+
+	50% {
+		transform: scale3d(1.15, 0.85, 1);
+	}
+
+	65% {
+		transform: scale3d(0.95, 1.05, 1);
+	}
+
+	75% {
+		transform: scale3d(1.05, 0.95, 1);
+	}
+
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}
+
 /* Footer */
 .footer-text {
-	color: #212529;
+	color: #cd5888;
 	margin: auto auto;
 }
 
 footer {
-	background-color: #f5b9ff;
+	background-color: #212529;
 }
 
 .media-links {

@@ -7,8 +7,12 @@ body {
 
 /* Header */
 
+.navbar-color {
+	background-color: #212529 !important;
+}
+
 .nav-link {
-	color: rgb(143, 143, 143);
+	color: #8f8f8f;
 }
 
 .navbar-nav .nav-link.active {
@@ -23,13 +27,8 @@ body {
 
 .sidebar {
 	color: #cd5888;
-	background-color: #151616;
+	background-color: #212529;
 }
-
-/* 
-Светлая тема - шрифт #212529
-Белый шрифт - #fff
-*/
 
 .slide-text {
 	color: #e9e8e8;
@@ -41,31 +40,6 @@ body {
 		display: none;
 	}
 }
-
-/* html,
-body {
-	height: 100%;
-}
-
-body {
-	display: flex;
-	flex-direction: column;
-}
-
-section {
-	flex: 1 0 auto;
-}
-
-footer {
-	flex-shrink: 0;
-} */
-/* .shel {
-	max-width: 1060px;
-} */
-
-/* section {
-	border: 5px dotted red;
-} */
 
 .call-anim {
 	width: 160px;
@@ -107,12 +81,12 @@ footer {
 
 /* Footer */
 .footer-text {
-	color: #e9e8e8;
+	color: #cd5888;
 	margin: auto auto;
 }
 
 footer {
-	background-color: #913175;
+	background-color: #212529;
 	/* position: absolute;
 	bottom: 0;
 	width: 100%; */
