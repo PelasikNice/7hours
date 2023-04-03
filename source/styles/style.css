@@ -57,6 +57,18 @@ footer {
 	align-items: center;
 }
 
+#navbarNav .nav-link img {
+	height: 30px;
+	width: 30px;
+	margin-inline: 0.5em;
+}
+
+.media-links img {
+	height: 40px;
+	width: 40px;
+	margin-inline: 0.5em;
+}
+
 .nav-item {
 	display: flex;
 	justify-content: center;
