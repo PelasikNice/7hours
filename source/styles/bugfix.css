@@ -1,19 +1,20 @@
-/* Section */
+/* 
+
+Section
+
+*/
+._content {
+	background-color: aquamarine;
+	margin: auto;
+}
 
 .sidebar {
 	color: #cd5888;
 	background-color: #212529;
 }
 
-.slide-text {
-	color: #e9e8e8;
-	margin: auto auto;
-}
-
-@media (max-width: 755px) {
-	.carousel-indicators {
-		display: none;
-	}
+._content-footer {
+	display: none;
 }
 
 .call-anim {

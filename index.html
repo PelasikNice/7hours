@@ -9,6 +9,7 @@
 		integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 	<link rel="stylesheet" href="/source/styles/index.css">
 	<link rel="stylesheet" href="/source/styles/bgvideo.css">
+	<link rel="stylesheet" href="/source/styles/style.css">
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/source/files/favicon_io/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/source/files/favicon_io/favicon-32x32.png">
@@ -19,9 +20,9 @@
 
 <body>
 	<header>
-		<nav class="navbar navbar-expand-lg bg-body-tertiary navbar-color">
+		<nav class="navbar navbar-expand-lg bg-body-tertiary navbar-color" data-bs-theme="dark">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="/index.html"><img src="/source/files/logo.png" alt="..."></a>
+				<a class="navbar-brand" href="/index.html"><img src="/source/files/logo.webp" alt="..."></a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
 					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -38,23 +39,26 @@
 							<a class="nav-link" href="/contacts.html">Contacts</a>
 						</li>
 						<li class="nav-item">
+							<a class="nav-link" href="/bugfix.html">BugFix</a>
+						</li>
+						<li class="nav-item">
 							<a class="nav-link" href="https://t.me/PelasikNice" target='_blank'>
-								<img style='width: 30px; margin-inline: 0.5em;' src="/source/files/telegram.png"
+								<img style='width: 30px; margin-inline: 0.5em;' src="/source/files/telegram.webp"
 									alt="Telegram"></a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="https://www.youtube.com/@pelasiknice" target='_blank'>
-								<img style='width: 30px; margin-inline: 0.5em;' src="/source/files/youtube.png"
+								<img style='width: 30px; margin-inline: 0.5em;' src="/source/files/youtube.webp"
 									alt="YouTube"></a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="https://vk.com/pelasiknice" target='_blank'>
-								<img style='width: 30px; margin-inline: 0.5em;' src="/source/files/vk.png"
+								<img style='width: 30px; margin-inline: 0.5em;' src="/source/files/vk.webp"
 									alt="VKontakte"></a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="https://discord.gg/Q6r97wUsuG" target='_blank'>
-								<img style='width: 30px; margin-inline: 0.5em;' src="/source/files/discord.png"
+								<img style='width: 30px; margin-inline: 0.5em;' src="/source/files/discord.webp"
 									alt="Discord"></a>
 						</li>
 					</ul>
@@ -97,7 +101,7 @@
 								<div class="carousel-item active">
 									<div class="d-block w-100">
 										<div class="row">
-											<div class="col-lg-6 col-md-6"><img src="/source/images/mine (1).png"
+											<div class="col-lg-6 col-md-6"><img src="/source/images/mine (1).webp"
 													class='w-100' alt="..."></div>
 											<div class="col-lg-6 col-md-6 slide-text">
 												<p>3 босса в одном измерении. Хранитель, Иссушитель и Дракон Края! Что
@@ -110,7 +114,7 @@
 								<div class="carousel-item">
 									<div class="d-block w-100">
 										<div class="row">
-											<div class="col-lg-6 col-md-6"><img src="/source/images/tyan (2).png"
+											<div class="col-lg-6 col-md-6"><img src="/source/images/tyan (2).webp"
 													class='w-100' alt="..."></div>
 											<div class="col-lg-6 col-md-6 slide-text">
 												<p>Часто, перед сном, я представляю тебя именно такой: красивой, в белой
@@ -122,7 +126,7 @@
 								<div class="carousel-item">
 									<div class="d-block w-100">
 										<div class="row">
-											<div class="col-lg-6 col-md-6"><img src="/source/images/tyan (3).png"
+											<div class="col-lg-6 col-md-6"><img src="/source/images/tyan (3).webp"
 													class='w-100' alt="..."></div>
 											<div class="col-lg-6 col-md-6 slide-text">
 												<p>Также я очень люблю мечтать. Иногда мне снится, будто мы сидим на
@@ -135,7 +139,7 @@
 								<div class="carousel-item">
 									<div class="d-block w-100 bebra">
 										<div class="row">
-											<div class="col-lg-6 col-md-6"><img src="/source/images/tyan (4).png"
+											<div class="col-lg-6 col-md-6"><img src="/source/images/tyan (4).webp"
 													class='w-100' alt="..."></div>
 											<div class="col-lg-6 col-md-6 slide-text">
 												<p>И мне бы очень хотелось, чтобы ты получила доступ к этому сайту,
@@ -165,14 +169,14 @@
 							<p style='color: #e9e8e8;'>Можем ли мы вам помочь?</p>
 						</div>
 						<div class="col-lg-12 col-md-12 text-center">
-							<img class='call-anim' src="/source/files/shella.png" alt="Telegram">
+							<img class='call-anim' src="/source/files/shella.webp" alt="Telegram">
 						</div>
 					</div>
 				</div>
 
 				<div class="col-lg-3 col-md-12">
-					<div class="row px-2">
-						<div class="col-lg-12 sidebar my-4">
+					<div class="row px-2" style='padding-right: 1.5rem !important'>
+						<div class="col-lg-12 sidebar my-4 _news-bar">
 							<p>
 								Подросток из Москвы стал самым молодым среди членов компании Яндекс. Ещё с 12 лет он
 								начал изучать программирование, а в 15 лет он начал изучать вёрстку сайтов. Всё началось
@@ -180,14 +184,14 @@
 									больше >>></a>
 							</p>
 						</div>
-						<div class="col-lg-12 sidebar my-4">
+						<div class="col-lg-12 sidebar my-4 _news-bar">
 							<p>
 								Скромный и замкнутый в себе парень наконец-то нашёл ту, с которой готов планировать
 								будущее. Они встретились случайно в парке, и, разговорившись, осознали, что именно
 								судьба свела их. Её звали <a href="#">Узнать больше >>></a>
 							</p>
 						</div>
-						<div class="col-lg-12 sidebar my-4">
+						<div class="col-lg-12 sidebar my-4 _news-bar">
 							<p>
 								Ещё недавно никому неизвестный игрок в Minecraft установил новый рекорд. Житель Москвы,
 								Андрей ( PelasikNice ) смог победить в crystallpvp популярную личность, которая
@@ -195,7 +199,7 @@
 									больше >>></a>
 							</p>
 						</div>
-						<div class="col-lg-12 sidebar my-4">
+						<div class="col-lg-12 sidebar my-4 _news-bar">
 							<p>
 								Популярный видеоблогер с никнеймом PelasikNice решил свести счёты с жизнью. По
 								показаниям свидетелей выяснилось, что из-за насмешек со стороны окружающих у него
@@ -221,14 +225,14 @@
 				</div>
 				<div class="col-lg-4 col-md-12 media-links">
 					<a href="https://t.me/PelasikNice" target='_blank'><img style='width: 40px; margin-inline: 0.5em;'
-							src="/source/files/telegram.png" alt="Telegram"></a>
+							src="/source/files/telegram.webp" alt="Telegram"></a>
 					<a href="https://www.youtube.com/@pelasiknice" target='_blank'><img
-							style='width: 40px; margin-inline: 0.5em;' src="/source/files/youtube.png"
+							style='width: 40px; margin-inline: 0.5em;' src="/source/files/youtube.webp"
 							alt="YouTube"></a>
 					<a href="https://vk.com/pelasiknice" target='_blank'><img style='width: 40px; margin-inline: 0.5em;'
-							src="/source/files/vk.png" alt="VKontakte"></a>
+							src="/source/files/vk.webp" alt="VKontakte"></a>
 					<a href="https://discord.gg/Q6r97wUsuG" target='_blank'><img
-							style='width: 40px; margin-inline: 0.5em;' src="/source/files/discord.png"
+							style='width: 40px; margin-inline: 0.5em;' src="/source/files/discord.webp"
 							alt="Discord"></a>
 				</div>
 			</div>
