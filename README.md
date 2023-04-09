@@ -1,6 +1,6 @@
 # pelasiknice.github.io
 Комментария не будет
-https://pelasiknice.github.io/
+https://pelasiknice.github.io/7hours/
 
 #212529; Тёмно серый
 
